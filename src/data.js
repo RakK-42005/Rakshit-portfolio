@@ -8,7 +8,6 @@ export const profile = {
   github: "https://github.com/RakK-42005",
   githubUsername: "RakK-42005",
   linkedin: "https://www.linkedin.com/in/rakshit-kapoor-70b555336/",
-  resume: "/Rakshit_Kapoor_Resume_One_Page.pdf"
 };
 
 export const skillGroups = [
