@@ -135,8 +135,15 @@ export default function App() {
           <div className="stat-card"><BriefcaseBusiness/><strong>3</strong><span>Internship experiences</span></div>
           <div className="stat-card"><Terminal/><strong>5+</strong><span>Technical projects</span></div>
         </div>
-        <div className="education-strip"><div className="edu-icon"><GraduationCap/></div><div><span className="eyebrow">EDUCATION</span><h3>Vellore Institute of Technology, Vellore</h3><p>B.Tech, Computer Science — Specialization in Information Security · Expected July 2027</p></div>
-      </section>
+        <div className="education-strip">
+          <div className="edu-icon"><GraduationCap /></div>
+          <div>
+            <span className="eyebrow">EDUCATION</span>
+            <h3>Vellore Institute of Technology, Vellore</h3>
+            <p>B.Tech, Computer Science — Specialization in Information Security · Expected July 2027</p>
+          </div>
+        </div>
+        </section>
 
       <section className="section-wrap section-block" id="skills">
         <SectionHeading eyebrow="WHAT I WORK WITH" title={<>Tools in my <span>toolkit.</span></>} text="A mix of programming, web technologies, data tools and security fundamentals that I continue to develop."/>
