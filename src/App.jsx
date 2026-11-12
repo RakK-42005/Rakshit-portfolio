@@ -111,7 +111,6 @@ export default function App() {
           <p className="hero-description">I enjoy turning ideas into useful software — from full-stack applications to AI-powered systems, with a growing interest in information security.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#projects" onClick={e => { e.preventDefault(); goTo("projects"); }}>Explore my work <ArrowUpRight size={17}/></a>
-            <a className="button button-ghost" href={profile.resume} download><Download size={16}/> Download resume</a>
           </div>
           <div className="hero-socials"><a href={profile.github} target="_blank" rel="noreferrer"><Github size={17}/> GitHub</a><a href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={17}/> LinkedIn</a><span><MapPin size={15}/> {profile.location}</span></div>
         </div>
@@ -136,7 +135,7 @@ export default function App() {
           <div className="stat-card"><BriefcaseBusiness/><strong>3</strong><span>Internship experiences</span></div>
           <div className="stat-card"><Terminal/><strong>5+</strong><span>Technical projects</span></div>
         </div>
-        <div className="education-strip"><div className="edu-icon"><GraduationCap/></div><div><span className="eyebrow">EDUCATION</span><h3>Vellore Institute of Technology, Vellore</h3><p>B.Tech, Computer Science — Specialization in Information Security · Expected July 2027</p></div><span className="cgpa">7.6 / 10 CGPA</span></div>
+        <div className="education-strip"><div className="edu-icon"><GraduationCap/></div><div><span className="eyebrow">EDUCATION</span><h3>Vellore Institute of Technology, Vellore</h3><p>B.Tech, Computer Science — Specialization in Information Security · Expected July 2027</p></div>
       </section>
 
       <section className="section-wrap section-block" id="skills">
